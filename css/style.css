@@ -1,0 +1,51 @@
+/* Reset all margin and paddings */
+* {
+  margin:0; 
+  padding:0;
+}
+
+.container {
+  background-color: #cccccc;
+  display: flex;
+  gap: 10px;
+}
+
+.marg {
+  margin:10px 0px;
+  padding:10px;
+}
+
+.box1 {
+  background-image: url('../img/tree.jpg') ;
+  background-size: cover;
+  background-color: #660066;
+  flex-grow:1;
+  height:400px;
+
+}
+
+.inner-container {
+
+  flex-grow:1;
+}
+
+.inner-inner-container {
+  display: flex;
+  gap:10px;
+  margin: 0 0 10px 0
+}
+
+.box2 {
+  background-color: #249b9f;
+  flex-grow:4;
+}
+
+.box3 {
+  background-color: #c7511b;
+  flex-grow:1;
+}
+
+.box4 {
+  background-color: #0c8e47;
+  flex-grow:1;
+}
